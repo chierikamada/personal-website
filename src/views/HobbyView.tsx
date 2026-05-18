@@ -5,6 +5,8 @@ import gopher from '@/assets/gopher.webp'
 import coffee from '@/assets/coffee.webp'
 import princess from '@/assets/princess.webp'
 import pitviper from '@/assets/pitviper.webp'
+import dress from '@/assets/dress.webp'
+import kitties from '@/assets/kitties.webp'
 
 
 const hobbies: HobbyTileProps[] = [
@@ -23,21 +25,30 @@ const hobbies: HobbyTileProps[] = [
         description: "The Aftershock Original 2.0",
         tags: ["pit viper"],
     },
-    
+    {
+        imageSrc: kitties,
+        description: "Mail Organizer",
+        tags: ["sewing"],
+    },
     {
         imageSrc: princess,
-        description: "princess",
+        description: "Princess",
         tags: ["sticker"],
     },
     {
         imageSrc: coffee,
-        description: "coffee mug",
+        description: "Coffee Mug",
         tags: ["crochet"],
     },
     {
         imageSrc: lake,
         description: "Lake Granby",
         tags: ["travel"],
+    },
+    {
+        imageSrc: dress,
+        description: "Bridesmaid Dress",
+        tags: ["sewing"],
     },
 ]
 
